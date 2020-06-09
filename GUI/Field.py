@@ -1,5 +1,4 @@
 import pygame
-from pygame.locals import *
 
 
 class Field:
@@ -39,7 +38,7 @@ def StartGame(handler):
     tick = handler.World_par.TickUniverse
     while running:
         for event in pygame.event.get():
-            if event.type == QUIT:
+            if event.type == pygame.QUIT:
                 raise SystemExit(0)
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_UP:
