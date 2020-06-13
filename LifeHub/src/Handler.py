@@ -1,8 +1,8 @@
 import random
-import src.map as mp
-import src.food as food
-import src.bot as bot
-import src.ga as ga
+import LifeHub.src.map as mp
+import LifeHub.src.food as food
+import LifeHub.src.bot as bot
+import LifeHub.src.ga as ga
 
 DEBUG = True
 

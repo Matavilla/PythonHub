@@ -1,6 +1,6 @@
 import random
-import src.bot as bot
-from src.ga.GenAlgo import GenAlgo
+import LifeHub.src.bot as bot
+from LifeHub.src.ga.GenAlgo import GenAlgo
 
 
 class Selection(GenAlgo):
