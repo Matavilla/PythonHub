@@ -1,0 +1,17 @@
+generates = docs/_build
+
+
+rule builddoc
+  command = PYTHONPATH='pwd' sphinx-build -M html "./docs" "./docs/_build"
+
+rule clean
+  command = rm -rf $generates
+
+
+
+
+build createdoc: builddoc
+
+build clean: clean
+
+build 
