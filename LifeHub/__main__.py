@@ -1,3 +1,3 @@
-import LifeHub as lf
-
-lf.main()
+if __name__ == "__main__":
+    from LifeHub.LifeHub import main
+    main()

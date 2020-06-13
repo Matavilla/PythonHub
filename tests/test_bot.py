@@ -1,6 +1,6 @@
 import array
-from src.bot import Bot, AI
-import src.map as mp
+from LifeHub.src.bot import Bot, AI
+import LifeHub.src.map as mp
 
 # add 3 bots for testing
 b1, b2, b3 = Bot(1), Bot(2), Bot(3)
@@ -64,7 +64,7 @@ class Test_Bot:
         assert dy1 == 1
         assert action1 is None
         assert b1.Pointer_of_ai == 121
-        assert b1.Curr_direction == 0
+        assert b1.Curr_direction == 4
 
         b1.Pointer_of_ai = 46
         dx1, dy1, action1 = b1.get_dir_and_action(0, 0, tmp_map)
