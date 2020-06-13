@@ -1,4 +1,4 @@
-generates = docs/_build dist LifeHub.egg-info
+generates = docs/_build build dist LifeHub.egg-info
 
 
 rule builddoc
